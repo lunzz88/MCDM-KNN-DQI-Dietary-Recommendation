@@ -1,0 +1,21 @@
+# Expert-Guided MCDM-KNN Framework for Personalized Dietary Quality Recommendation
+# Prepared from the public T1-T10 research documentation.
+# The original source-code environment and exact package versions were not supplied.
+# Verify these dependencies against the actual application and pin tested versions
+# before claiming full computational reproducibility.
+
+# Data processing and numerical/model computations
+numpy
+pandas
+scipy
+scikit-learn
+
+# Streamlit interface and FastAPI backend (T8)
+streamlit
+fastapi
+pydantic
+uvicorn
+
+# Automated tests (T9-T10)
+pytest
+httpx
